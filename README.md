@@ -1,2 +1,2 @@
 # custom-modal
-modal created using html, css and javascript
+Modal created using HTML, CSS and JAVASCRIPT.
