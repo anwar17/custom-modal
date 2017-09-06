@@ -20,6 +20,7 @@ function closeModal() {
 
 window.addEventListener('click', clickOutside);     // Added listener to the window to listen to click event.
 
+// function for closing the modal when clicked outside
 function clickOutside(e) {
     if (e.target == modal) {
         console.log('Clicked Outside');
