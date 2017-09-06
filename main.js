@@ -17,3 +17,12 @@ function closeModal() {
     console.log('Modal Closed');
     modal.style.display = 'none';
 }
+
+window.addEventListener('click', clickOutside);     // Added listener to the window to listen to click event.
+
+function clickOutside(e) {
+    if (e.target == modal) {
+        console.log('Clicked Outside');
+        modal.style.display = 'none';
+    }
+}
