@@ -30,15 +30,39 @@ body {
 .modal-content {
     background-color: #f4f4f4;
     margin: 20% auto;
-    padding: 20px;
     width: 70%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
     animation-name: modalOpen;
     animation-duration: 1s;
 }
 
+.modal-header h2 {
+    margin: 0;
+}
+
+.modal-header {
+    background: coral;
+    padding: 15px;
+    color: white;
+}
+
+.modal-body {
+    padding: 10px 20px;
+}
+
+.modal-footer h3 {
+    margin: 0;
+}
+
+.modal-footer {
+    background: coral;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
 .closeBtn {
-    color: #ccc;
+    color: white;
     float: right;
     font-size: 30px;
 }
