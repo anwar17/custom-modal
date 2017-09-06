@@ -9,3 +9,11 @@ function openModal() {
     console.log('Modal Opened');
     modal.style.display = 'block';
 }
+
+closeBtn.addEventListener('click', closeModal);     // Added the event listener for closing the modal.
+
+// function for closing the modal
+function closeModal() {
+    console.log('Modal Closed');
+    modal.style.display = 'none';
+}
